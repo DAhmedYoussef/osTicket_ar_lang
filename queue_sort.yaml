@@ -1,0 +1,33 @@
+- 
+  #Columns are not necessary and a default list is used if no columns are
+  #specified.
+  #Fields:
+  #id:
+---
+  id: 1
+  name: الأولوية + الأكثر حداثة
+  columns: '["-cdata__priority","-lastupdate"]'
+- 
+  id: 2
+  name: الأولوية + المنشأه مؤخراً
+  columns: '["-cdata__priority","-created"]'
+- 
+  id: 3
+  name: الأولوية + تاريخ الإستحقاق
+  columns: '["-cdata__priority","-est_duedate"]'
+- 
+  id: 4
+  name: تاريخ الإستحقاق
+  columns: '["-est_duedate"]'
+- 
+  id: 5
+  name: تاريخ الاغلاق
+  columns: '["-closed"]'
+- 
+  id: 6
+  name: تاريخ الإنشاء
+  columns: '["-created"]'
+- 
+  id: 7
+  name: تاريخ التحديث
+  columns: '["-lastupdate"]'
